@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header, #foot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#header > div > div, #foot > div > div {
+    padding: 10px;
+}
+
+#header > div, #foot > div {
+    display: flex;
+}
+
+#nav-button {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 5px;
+    border: none;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo-div {
+    margin-top: 10%;
+}
+#searchbar-div {
+    width: 35%;
+    height: 3.5%;
+}
+
+#searchbar {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+}
+
+#searchbuttons-div {
+    margin: 25px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+#searchbuttons-div > button {
+    background-color: #e3e3e3;
+    border: none;
+    margin: 0 5px;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    border-radius: 5px;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    text-decoration: underline;
+}
